@@ -19,8 +19,8 @@ int main(void)
 	int regsiter[14];
 	double values[7]; // ACC X Y Z, Temp, GYRO XYZ
 	
-	//printf("write: %i \n", wiringPiI2CWriteReg8(fd, 107, 0));
-	//printf("write: %i \n", wiringPiI2CReadReg8(fd, 107));
+	printf("write: %i \n", wiringPiI2CWriteReg8(fd, 107, 0));
+	printf("write: %i \n", wiringPiI2CReadReg8(fd, 107));
 	
 	while (1)
 	{
